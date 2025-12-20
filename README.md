@@ -104,6 +104,9 @@ flowchart TD
     %% Outcome
     J --> K[Production Ready Systems]
     K --> L[Continuous Improvement]
+
+```
+
 ## 🧱 Phase-Wise DevOps Learning Plan
 
 This section breaks DevOps learning into **clear phases**, helping you move from **beginner → job-ready** in a structured way.
