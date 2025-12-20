@@ -339,12 +339,4 @@ flowchart LR
 
 ```
 
-```mermaid
-flowchart LR
-    Plan --> Code --> Build --> Test --> Deploy
-    Deploy --> Cloud
-    Cloud --> Monitor
-    Monitor --> Improve
-    Improve --> Plan
 
-```
