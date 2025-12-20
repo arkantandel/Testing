@@ -1,5 +1,32 @@
+# 🚀 DevOps Learning Roadmap
 
- 
+This repository provides a **complete DevOps learning roadmap** for beginners, covering tools, technologies, and the DevOps lifecycle in a structured way.
+
+It is useful for:
+- Learning DevOps step by step
+- GitHub portfolio
+- LinkedIn DevOps posts
+- Interview preparation
+
+---
+
+## 🎯 What is DevOps?
+
+DevOps is a combination of **Development** and **Operations** that focuses on:
+
+- Faster software delivery  
+- Automation  
+- Collaboration between teams  
+- Stability and scalability of systems  
+
+---
+
+## 🧭 DevOps Learning Roadmap (Flowchart)
+
+> ⚠️ Note:  
+> Mermaid diagrams work on **GitHub**, **GitLab**, and Markdown editors that support Mermaid.
+
+```mermaid
 flowchart TD
 
     %% DevOps Purpose
@@ -12,7 +39,7 @@ flowchart TD
     %% Learning Roadmap
     A --> B[DevOps Learning Roadmap]
 
-    %% Linux
+    %% Linux Fundamentals
     B --> C[Linux Fundamentals]
     C --> C1[Linux Commands]
     C --> C2[Networking Basics]
@@ -23,7 +50,7 @@ flowchart TD
     D --> D1[Git]
     D --> D2[GitHub]
 
-    %% CI/CD
+    %% CI/CD Automation
     D --> E[CI/CD Automation]
     E --> E1[Jenkins]
     E --> E2[GitHub Actions]
@@ -32,11 +59,11 @@ flowchart TD
     E --> F[Containers]
     F --> F1[Docker]
 
-    %% Orchestration
+    %% Container Orchestration
     F --> G[Container Orchestration]
     G --> G1[Kubernetes]
 
-    %% Cloud
+    %% Cloud Platform
     G --> H[Cloud Platform]
     H --> H1[AWS EC2]
     H --> H2[AWS S3]
@@ -44,7 +71,7 @@ flowchart TD
     H --> H4[VPC]
     H --> H5[CloudWatch]
 
-    %% Monitoring
+    %% Monitoring & Logging
     H --> I[Monitoring & Logging]
     I --> I1[Prometheus]
     I --> I2[Grafana]
