@@ -202,6 +202,18 @@ This section breaks DevOps learning into **clear phases**, helping you move from
 
 ---
 
+
+```mermaid
+
+flowchart TD
+    A[Developer]
+    A --> B[Dockerfile]
+    B --> C[Docker Image]
+    C --> D[Docker Container]
+    D --> E[Application Running]
+
+```
+
 ### ☸️ Phase 5: Container Orchestration (Kubernetes)
 
 > Kubernetes manages containers at scale.
@@ -222,6 +234,18 @@ This section breaks DevOps learning into **clear phases**, helping you move from
 ✅ Production-ready deployments  
 
 ---
+
+```mermaid
+
+flowchart TD
+    A[User / DevOps Engineer]
+    A --> B[kubectl]
+    B --> C[API Server]
+    C --> D[Pod]
+    D --> E[Container]
+
+```
+
 
 ### ☁️ Phase 6: Cloud Platform (AWS Core Services)
 
@@ -266,6 +290,16 @@ This section breaks DevOps learning into **clear phases**, helping you move from
 
 ---
 
+```mermaid
+
+flowchart LR
+    A[Application]
+    A --> B[Prometheus]
+    B --> C[Metrics]
+    C --> D[Grafana Dashboard]
+
+```
+
 ### 🔁 Phase 8: DevOps Lifecycle & Best Practices
 
 > DevOps is a continuous process, not a one-time task.
@@ -291,4 +325,17 @@ This section breaks DevOps learning into **clear phases**, helping you move from
 🚀 Production-level confidence  
 
 ---
+
+```mermaid
+flowchart LR
+    A[Plan] --> B[Code]
+    B --> C[Build]
+    C --> D[Test]
+    D --> E[Release]
+    E --> F[Deploy]
+    F --> G[Operate]
+    G --> H[Monitor]
+    H --> A
+
+```
 
